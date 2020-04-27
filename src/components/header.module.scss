@@ -1,0 +1,42 @@
+.headerto {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.header {
+  padding: 1rem 0 3rem;
+}
+
+.title {
+  color: #000000;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav-item {
+  font-size: 0.9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+  color: rgba(85, 83, 83, 0.835);
+}
+
+.nav-item :hover {
+  color: #000000;
+}
+
+.active-nav-item {
+  font-size: 1.5rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+  color: rgba(87, 36, 36, 0.835);
+  font-weight: 400;
+  transition: all ease-in 2ms;
+}
